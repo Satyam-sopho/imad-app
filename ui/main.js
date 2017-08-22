@@ -9,7 +9,7 @@ function moveRight(){
     
 }
 
-img.onclick= fuction ()
+img.onclick= function ()
 {
     var interval =setInterval(moveRight,100);
 };
