@@ -19,7 +19,7 @@ var button=document.getElementById('counter');
 var counter=0;
 button.onclick =function(){
     // Make request to counter end point
-    
+    var request=new XMLHttpRequest();
     //Capture the response and store it in variable
     
     //Render the variable in the correct span
